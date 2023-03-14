@@ -30,7 +30,9 @@ console.log("Exercise Two");
 // Write your code here 👇
 
 function kata2() {
-
+    for (number = 1; number <= 20; number++) {
+        console.log(number);
+    }
 }
 kata2();
 
