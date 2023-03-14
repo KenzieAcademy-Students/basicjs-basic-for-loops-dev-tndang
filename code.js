@@ -62,7 +62,9 @@ console.log("Exercise Four");
 // Write your code here 👇
 
 function kata4() {
-
+    for (number = -1; number >= -20; number--) {
+        console.log(number);
+    }
 }
 kata4();
 
