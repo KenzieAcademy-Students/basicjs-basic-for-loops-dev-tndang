@@ -14,7 +14,9 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // Write your code here 👇
 
 function kata1() {
-
+    for (number = 0; number <= 9; number++) {
+        console.log(number);
+    }
 }
 kata1();
 
@@ -28,7 +30,9 @@ console.log("Exercise Two");
 // Write your code here 👇
 
 function kata2() {
-
+    for (number = 1; number <= 20; number++) {
+        console.log(number);
+    }
 }
 kata2();
 
@@ -42,7 +46,9 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 function kata3() {
-
+    for (number = 2; number <= 20; number += 2) {
+        console.log(number);
+    }
 }
 kata3();
 
@@ -56,7 +62,9 @@ console.log("Exercise Four");
 // Write your code here 👇
 
 function kata4() {
-
+    for (number = -1; number >= -20; number--) {
+        console.log(number);
+    }
 }
 kata4();
 
@@ -70,7 +78,9 @@ console.log("Exercise Five");
 // Write your code here 👇
 
 function kata5() {
-
+    for (number = -20; number <= -1; number++) {
+        console.log(number);
+    }
 }
 kata5();
 
@@ -84,7 +94,9 @@ console.log("Exercise Six");
 // Write your code here 👇
 
 function kata6() {
-
+    for (number = 20; number >= -20; number -= 2) {
+        console.log(number);
+    }
 }
 kata6();
 
