@@ -78,7 +78,9 @@ console.log("Exercise Five");
 // Write your code here 👇
 
 function kata5() {
-
+    for (number = -20; number <= -1; number++) {
+        console.log(number);
+    }
 }
 kata5();
 
