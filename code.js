@@ -14,7 +14,9 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // Write your code here 👇
 
 function kata1() {
-
+    for (number = 0; number <= 9; number++) {
+        console.log(number);
+    }
 }
 kata1();
 
